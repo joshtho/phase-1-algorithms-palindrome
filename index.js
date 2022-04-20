@@ -1,9 +1,12 @@
 function isPalindrome(word) {
-  // Write your algorithm here
+  let string = word.split('').reverse().join('');
+    return string === word
+    // Write your algorithm here
 }
 
 /* 
-  Add your pseudocode here
+ i need to take the word, split it into an array and see if the
+ value is the same when i flip it somehow.  Add your pseudocode here
 */
 
 /*
